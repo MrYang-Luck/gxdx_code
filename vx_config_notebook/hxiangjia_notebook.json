@@ -1,0 +1,23 @@
+{
+    "attachment_folder": "hxiangjia_vx_attachments",
+    "config_mgr": "hxiangjia_vx.vnotex",
+    "created_time": "2022-08-16T01:44:18Z",
+    "description": "",
+    "extra_configs": {
+    },
+    "history": [
+        {
+            "last_accessed_time": "2023-01-06T02:13:46Z",
+            "line_number": -1,
+            "path": "README.md"
+        }
+    ],
+    "image_folder": "vx_images",
+    "company":"广西电信南宁分公司",
+    "program":"gx.189.cn",
+    "name": "hxiangjia.com(号百)-document",
+    "document_download":"https://cloud.189.cn/web/share?code=QJJfMjQFb6ru(share_code:2hd3)",
+    "tag_graph": "",
+    "version": 3,
+    "version_controller": "luck——yang"
+}
