@@ -1,2 +1,2 @@
 # gxdx_code
-记录
+小小record！
