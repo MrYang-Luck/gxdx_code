@@ -1,0 +1,116 @@
+{
+  "name": "gx_telecom application server",
+  "description": "server-login list",
+  "developer":"陈工",
+  "email":"chenjg@chinatelecom.cn",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "serv_esmp": {
+      "description":"中台",
+      "version": "1.1.1",
+      "base_url": "https://esmp.gx.189.cn/admin/",
+      "integrity": "sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5prGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==",
+      "dev": true
+    },
+    "serv_hbp": {
+      "description":"vip享红包",
+      "version": "1.3.4",
+      "base_url": "https://hbp.gx.189.cn/admin/",
+      "integrity": "sha1-hiRnWdbSGmR0/whKR0DsBesh8=",
+      "requires": {
+        "mime-types": "2.1.18",
+        "negotiator": "0.6.1"
+      }
+    },
+    "serv_kk": {
+      "description":"翼小白",
+      "version": "2.4.1",
+      "base_url": "https://kk.gx.189.cn/admin/",
+      "integrity": "sha512-XLmq3H/BVvW6/GbxKryGxWO27bXhWGWAZWkGwS6FLHjOlwFXNFoWFQEO/Df4u0YYd0K3BQgQ==",
+      "dev": true
+    },
+    "serv_nb": {
+      "description":"企微数字化营销",
+      "version": "3.0.1",
+      "base_url": "https://nb.gx.189.cn/admin/",
+      "integrity": "sha1-r9+UiPsezvyDSPIvRk4ypYs2s=",
+      "dev": true,
+      "login_route": {
+        "acorn": {
+          "url": "/login.html",
+          "integrity": "sha1-ReN/s56No/JbruP/U2niu18iAXo=",
+          "dev": true
+        }
+      }
+    },
+    "ajv": {
+      "version": "5.5.2",
+      "base_url": "https://registry.npmjs.org/ajv/-/ajv-5.5.2.tgz",
+      "integrity": "sha1-c7Xuyj+rZT49P5Qis0GtQiBdyWU=",
+      "requires": {
+        "co": "4.6.0",
+        "fast-deep-equal": "1.0.0",
+        "fast-json-stable-stringify": "2.0.0",
+        "json-schema-traverse": "0.3.1"
+      }
+    },
+    "ajv-keywords": {
+      "version": "2.1.1",
+      "base_url": "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-2.1.1.tgz",
+      "integrity": "sha1-YXmX/F9gV2iUxDX5QNgZ4TW4B2I=",
+      "dev": true
+    },
+    "ansi-escapes": {
+      "version": "3.0.0",
+      "base_url": "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-3.0.0.tgz",
+      "integrity": "sha512-O/klc27mWNUigtv0F8NJWbLF00OcegQalkqKURWdosW08YZKi4m6CnSUSvIZG1otNJbTWhN01Hhz389DW7mvDQ==",
+      "dev": true
+    },
+    "ansi-regex": {
+      "version": "2.1.1",
+      "base_url": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz",
+      "integrity": "sha1-w7M6te42DYbg5ijwRorn7yfWVN8=",
+      "dev": true
+    },
+    "ansi-styles": {
+      "version": "2.2.1",
+      "base_url": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz",
+      "integrity": "sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=",
+      "dev": true
+    },
+      "dependencies": {
+        "isarray": {
+          "version": "1.0.0",
+          "base_url": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+          "integrity": "sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=",
+          "dev": true
+        },
+        "readable-stream": {
+          "version": "2.3.4",
+          "base_url": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.4.tgz",
+          "integrity": "sha512-vuYxeWYM+fde14+rajzqgeohAI7YoJcHE7kXDAc4Nk0EbuKnJfqtY9YtRkLo/tqkuF7MsBQRhPnPeyjYITp3ZQ==",
+          "dev": true,
+          "requires": {
+            "core-util-is": "1.0.2",
+            "inherits": "2.0.3",
+            "isarray": "1.0.0",
+            "process-nextick-args": "2.0.0",
+            "safe-buffer": "5.1.1",
+            "string_decoder": "1.0.3",
+            "util-deprecate": "1.0.2"
+          }
+        },
+        "string_decoder": {
+          "version": "1.0.3",
+          "base_url": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz",
+          "integrity": "sha512-4AH6Z5fzNNBcH+6XDMfA/BTt87skxqJlO0lAh3Dker5zThcAxG6mKz+iGu308UKoPPQ8Dcqx/4JhujzltRa+hQ==",
+          "dev": true,
+          "requires": {
+            "safe-buffer": "5.1.1"
+          }
+        }
+      }
+    }
+  }
+}
